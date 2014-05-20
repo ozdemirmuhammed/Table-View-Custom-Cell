@@ -21,6 +21,15 @@
 		FA61DC9E192A6FB00072EA93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA61DC80192A6FB00072EA93 /* UIKit.framework */; };
 		FA61DCA6192A6FB00072EA93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCA4192A6FB00072EA93 /* InfoPlist.strings */; };
 		FA61DCA8192A6FB00072EA93 /* Table_View_Custom_CellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61DCA7192A6FB00072EA93 /* Table_View_Custom_CellTests.m */; };
+		FA61DCB3192A709A0072EA93 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61DCB2192A709A0072EA93 /* TableViewController.m */; };
+		FA61DCB7192A738A0072EA93 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61DCB5192A738A0072EA93 /* CustomCell.m */; };
+		FA61DCB8192A738A0072EA93 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCB6192A738A0072EA93 /* CustomCell.xib */; };
+		FA61DCBF192A7DAF0072EA93 /* haber6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCB9192A7DAF0072EA93 /* haber6.jpg */; };
+		FA61DCC0192A7DAF0072EA93 /* haber4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCBA192A7DAF0072EA93 /* haber4.jpg */; };
+		FA61DCC1192A7DAF0072EA93 /* haber2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCBB192A7DAF0072EA93 /* haber2.jpg */; };
+		FA61DCC2192A7DAF0072EA93 /* haber1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCBC192A7DAF0072EA93 /* haber1.jpg */; };
+		FA61DCC3192A7DAF0072EA93 /* haber5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCBD192A7DAF0072EA93 /* haber5.jpg */; };
+		FA61DCC4192A7DAF0072EA93 /* haber3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA61DCBE192A7DAF0072EA93 /* haber3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,17 @@
 		FA61DCA3192A6FB00072EA93 /* Table View Custom CellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Table View Custom CellTests-Info.plist"; sourceTree = "<group>"; };
 		FA61DCA5192A6FB00072EA93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA61DCA7192A6FB00072EA93 /* Table_View_Custom_CellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_Custom_CellTests.m; sourceTree = "<group>"; };
+		FA61DCB1192A709A0072EA93 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FA61DCB2192A709A0072EA93 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FA61DCB4192A738A0072EA93 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		FA61DCB5192A738A0072EA93 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		FA61DCB6192A738A0072EA93 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		FA61DCB9192A7DAF0072EA93 /* haber6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haber6.jpg; sourceTree = "<group>"; };
+		FA61DCBA192A7DAF0072EA93 /* haber4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haber4.jpg; sourceTree = "<group>"; };
+		FA61DCBB192A7DAF0072EA93 /* haber2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haber2.jpg; sourceTree = "<group>"; };
+		FA61DCBC192A7DAF0072EA93 /* haber1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haber1.jpg; sourceTree = "<group>"; };
+		FA61DCBD192A7DAF0072EA93 /* haber5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haber5.jpg; sourceTree = "<group>"; };
+		FA61DCBE192A7DAF0072EA93 /* haber3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haber3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +135,11 @@
 				FA61DC8B192A6FB00072EA93 /* AppDelegate.h */,
 				FA61DC8C192A6FB00072EA93 /* AppDelegate.m */,
 				FA61DC8E192A6FB00072EA93 /* Main.storyboard */,
+				FA61DCB4192A738A0072EA93 /* CustomCell.h */,
+				FA61DCB5192A738A0072EA93 /* CustomCell.m */,
+				FA61DCB6192A738A0072EA93 /* CustomCell.xib */,
+				FA61DCB1192A709A0072EA93 /* TableViewController.h */,
+				FA61DCB2192A709A0072EA93 /* TableViewController.m */,
 				FA61DC91192A6FB00072EA93 /* ViewController.h */,
 				FA61DC92192A6FB00072EA93 /* ViewController.m */,
 				FA61DC94192A6FB00072EA93 /* Images.xcassets */,
@@ -126,6 +151,12 @@
 		FA61DC83192A6FB00072EA93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA61DCBC192A7DAF0072EA93 /* haber1.jpg */,
+				FA61DCBB192A7DAF0072EA93 /* haber2.jpg */,
+				FA61DCBE192A7DAF0072EA93 /* haber3.jpg */,
+				FA61DCBA192A7DAF0072EA93 /* haber4.jpg */,
+				FA61DCBD192A7DAF0072EA93 /* haber5.jpg */,
+				FA61DCB9192A7DAF0072EA93 /* haber6.jpg */,
 				FA61DC84192A6FB00072EA93 /* Table View Custom Cell-Info.plist */,
 				FA61DC85192A6FB00072EA93 /* InfoPlist.strings */,
 				FA61DC88192A6FB00072EA93 /* main.m */,
@@ -228,8 +259,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA61DCC3192A7DAF0072EA93 /* haber5.jpg in Resources */,
 				FA61DC95192A6FB00072EA93 /* Images.xcassets in Resources */,
+				FA61DCC1192A7DAF0072EA93 /* haber2.jpg in Resources */,
+				FA61DCC0192A7DAF0072EA93 /* haber4.jpg in Resources */,
+				FA61DCB8192A738A0072EA93 /* CustomCell.xib in Resources */,
+				FA61DCC2192A7DAF0072EA93 /* haber1.jpg in Resources */,
 				FA61DC87192A6FB00072EA93 /* InfoPlist.strings in Resources */,
+				FA61DCBF192A7DAF0072EA93 /* haber6.jpg in Resources */,
+				FA61DCC4192A7DAF0072EA93 /* haber3.jpg in Resources */,
 				FA61DC90192A6FB00072EA93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +290,8 @@
 				FA61DC93192A6FB00072EA93 /* ViewController.m in Sources */,
 				FA61DC8D192A6FB00072EA93 /* AppDelegate.m in Sources */,
 				FA61DC89192A6FB00072EA93 /* main.m in Sources */,
+				FA61DCB7192A738A0072EA93 /* CustomCell.m in Sources */,
+				FA61DCB3192A709A0072EA93 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +496,7 @@
 				FA61DCAD192A6FB00072EA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA61DCAE192A6FB00072EA93 /* Build configuration list for PBXNativeTarget "Table View Custom CellTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +505,7 @@
 				FA61DCB0192A6FB00072EA93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
